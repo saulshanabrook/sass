@@ -4,4 +4,4 @@ sass
 Sass image for Docker
 
 
-`docker run saulshanabrook/sass -v assets:/app  --watch /app/css`
+`docker run -v /Users/saul/projects/p8-server/paddle8/assets/css:/app saulshanabrook/sass sass --watch /app/`
